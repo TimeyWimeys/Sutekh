@@ -53,7 +53,7 @@
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary lang="en_GB">Sutekh, a port of the Titan Bingie Mod skin for Doctor Who fanatics.</summary>
-			<summary lang="nl_NL">Sutekh, een port van de Titan Bingie Mod skin voor Doctor Who fanaten.
+			<summary lang="nl_NL">Sutekh, een port van de Titan Bingie Mod skin voor Doctor Who fanaten.</summary>
 			<description lang="en_GB">A special skin to experience the Whoniverse in the comfort of your own home.</description>
 			<description lang="nl_NL">Een speciale skin om de Whoniverse te ervaren in het comfort van je eigen huis.</description>
 			<platform>all</platform>
