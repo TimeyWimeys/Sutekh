@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.sutekh" name="TimeyWimeys's Sutekh Repository" provider-name="TimeyWimeys" version="1.0.0">
-	<extension point="xbmc.addon.repository" name="TimeyWimeys's Sutekh Repository">
-		<requires>
-			<import addon="xbmc.addon" version="12.0.0"/>
-		</requires>
-		<dir minversion="20.0.0" maxversion="20.9.0">
-			<info compressed="false">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml.m5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/</datadir>
-		</dir>
-		<dir minversion="20.9.1">
-			<info compressed="false">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/omega/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/omega/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/omega/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">TimeyWimeys's Sutekh Repository</summary>
-        <description lang="en">A repository with all the add-ons by TimeyWimeys</description>
-	<description lang="nl">Een repository met alle add-ons van TimeyWimeys</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.png</fanart>
-        </assets>
-	</extension>
-</addon>
+<addons>
+	<!-- REPOS -->
+		<addon id="repository.sutekh" name="TimeyWimeys's Sutekh Repository" provider-name="TimeyWimeys" version="1.0.0">
+		<extension point="xbmc.addon.repository" name="TimeyWimeys's Sutekh Repository">
+			<requires>
+				<import addon="xbmc.addon" version="12.0.0"/>
+			</requires>
+			<dir minversion="20.0.0" maxversion="20.9.0">
+				<info compressed="false">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/</datadir>
+			</dir>
+			<dir minversion="20.9.1">
+				<info compressed="false">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/omega/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/omega/addons.xml.md5</checksum>
+				<datadir zip="true">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/omega/</datadir>
+			</dir>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">TimeyWimeys's Sutekh Repository</summary>
+			<description lang="en">A repository with all the add-ons by TimeyWimeys.</description>
+		<description lang="nl">Een repository met alle add-ons van TimeyWimeys.</description>
+			<disclaimer></disclaimer>
+			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+				<fanart>fanart.png</fanart>
+			</assets>
+		</extension>
+		</addon>
+</addons>
