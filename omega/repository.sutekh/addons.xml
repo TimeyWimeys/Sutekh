@@ -6,7 +6,7 @@
 		</requires>
 		<dir minversion="20.0.0" maxversion="20.9.0">
 			<info compressed="false">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml.m5</checksum>
+			<checksum>https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/TimeyWimeys/repository.sutekh/main/nexus/</datadir>
 		</dir>
 		<dir minversion="20.9.1">
