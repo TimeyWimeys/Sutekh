@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 	<!-- REPOS -->
-		<addon id="repository.sutekh" name="TimeyWimeys's Sutekh Repository" provider-name="TimeyWimeys" version="1.0.0">
+		<addon id="repository.sutekh" name="TimeyWimeys's Sutekh Repository" provider-name="TimeyWimeys" version="1.0.1">
 		<extension point="xbmc.addon.repository" name="TimeyWimeys's Sutekh Repository">
 			<requires>
 				<import addon="xbmc.addon" version="12.0.0"/>

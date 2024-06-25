@@ -17,13 +17,13 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">TimeyWimeys's Sutekh Repository</summary>
-	<description lang="en">A repository with all the add-ons by TimeyWimeys.</description>
-	<description lang="nl">Een repository met alle add-ons van TimeyWimeys.</description>
-	<disclaimer></disclaimer>
-	<platform>all</platform>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.png</fanart>
-	</assets>
+		<description lang="en">A repository with all the add-ons by TimeyWimeys.</description>
+		<description lang="nl">Een repository met alle add-ons van TimeyWimeys.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.png</fanart>
+		</assets>
 	</extension>
 </addon>
